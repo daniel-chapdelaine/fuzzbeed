@@ -1,68 +1,69 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  margin-top: 2em;
+  margin-inline-start: 12em;
+  width: 750px;
+  font-family: paralucent, sans-serif;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 56px;
+  line-height: 1;
+  letter-spacing: 1px;
+  font-weight: 800;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 125%;
+  letter-spacing: 2px;
+  color: forestgreen;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+a {
+  color: rgb(50, 168, 98) !important;
+}
+
+em {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;;
+  font-size: 17px;
+  line-height: 200%;
+}
+
+.help-text {
+  font-size: 13px;
+  color: gray;
+}
+
+.button {
+  padding: 12px 16px;
+  color: white;
+  background-color: rgba(35, 139, 34, .8);
+  border-color: transparent;
+  font-size: 18px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;;
+}
+
+.button:hover {
+  transform: scale(1.07);
+}
+
+.field {
+  padding: .75em;
+  background-color: #FAFAFA;
+  border: 1px solid #e2e8f0;
+
 }
