@@ -7,7 +7,7 @@ function Comment({ commenter, date, text }) {
     <div className='comment-container'>
       <div className='commenter-container'>
         <div>
-          <img className='commenter-img' src={import.meta.env.VITE_ASSET_PATH + 'public/anonymous.jpg'} />
+          <img className='commenter-img' src={'/fuzzbeed/anonymous.jpg'} />
         </div>
         <div>
           <div className='comment-commenter'>{commenter}</div>
