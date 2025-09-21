@@ -1,0 +1,10 @@
+.fuzzbeed-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fuzzbeed-text {
+  font-weight: 800;
+  color: #8b5622;
+}

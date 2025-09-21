@@ -1,18 +1,7 @@
 .head {
   height: 72px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-bottom: 1px solid gray;
-  font-size: 44px;
-  font-weight: 800;
-  color: #8b5622;
-}
-
-.head-groud {
-  width: 38px;
-  height: 38px;
 }
 
 .container {
