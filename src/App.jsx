@@ -1,13 +1,14 @@
 import './App.css'
+import Article from './Article';
 import Comments from './Comments'
+import Header from './Header';
 import Related from './Related'
 function App() {
   const title = "12 Iconic GourdPoggers Moments That Really Obie our Diggles";
   return (
     <div className='container'>
-      <h1>{title}</h1>
-      <em>September 23, 1993</em>
-      <h2>The Actual Article Here</h2>
+      <Header title={title}/>
+      <Article />
       <Related />
       <Comments articleTitle={title} />
       {/* about the author */}

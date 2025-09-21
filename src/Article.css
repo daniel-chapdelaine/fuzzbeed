@@ -1,0 +1,14 @@
+.article-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.section-container {
+  background-color: #ebf2ec;
+  padding: 24px;
+}
+
+.section-img {
+  width: 590px;
+  height: 290px;
+}

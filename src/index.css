@@ -27,6 +27,7 @@ h3 {
 
 a {
   color: rgb(50, 168, 98) !important;
+  text-decoration: underline;
 }
 
 em {
