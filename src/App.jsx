@@ -7,7 +7,10 @@ function App() {
   const title = "12 Iconic GourdPoggers Moments That Really Obie our Diggles";
   return (
     <>
-      <div className='head'>FuzzBeed</div>
+      <div className='head'>
+        <img className='head-groud' src="/fuzzbeed/fuzzbeed-gourd.png" />
+        <div>FuzzBeed</div>
+      </div>
       <div className='container'>
         <Header title={title}/>
         <Article />
