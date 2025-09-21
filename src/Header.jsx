@@ -10,6 +10,7 @@ function Header({ title }) {
       <div>
         <em>contributor - Blog_Poggz2</em>
       </div>
+      <div>[ARTICLE PEDNING REVIEW]</div>
     </div>
   )
 }
