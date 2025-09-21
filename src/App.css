@@ -1,6 +1,21 @@
+.head {
+  height: 72px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  font-size: 44px;
+  font-weight: 800;
+  color: #8b5622;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   gap: 30px;
   margin-bottom: 48px;
+  margin-top: 2em;
+  margin-inline-start: 12em;
+  width: 750px;
 }

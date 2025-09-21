@@ -1,8 +1,6 @@
 body {
-  margin-top: 2em;
-  margin-inline-start: 12em;
-  width: 750px;
   font-family: paralucent, sans-serif;
+  margin: 0;
 }
 
 h1 {
