@@ -22,15 +22,25 @@ function Comment({ commenter, date, text }) {
 function Comments({ articleTitle }) {
   const defaultComments = [
     { 
-      commenter: "Danny",
-      date: "June 19, 2023 at 7:06 am",
-      text: "What about Aid? It just seems like a better Healing Word, works on 3 creatures, and happens at a (relatively small) distance. Someone correct me if I’m wrong, not sure if it can actually bring someone back to a fighting state."
+      commenter: "Benito",
+      date: "September 23, 1993 at 3:06 am",
+      text: "So cool."
     },
     { 
-      commenter: "Benito",
-      date: "June 19, 2024 at 3:06 am",
-      text: "So cool."
-    }
+      commenter: "Big_Dipper",
+      date: "September 23, 1993 at 7:16 am",
+      text: "5 stars."
+    },
+    { 
+      commenter: "littledipper",
+      date: "September 23, 1993 at 11:01 am",
+      text: "wow!! dad had said that a new poggers had told him to check out the latest article, and - well he didn’t really know what that meant, but, wow!! i didn’t really know that you could do all this with crystals, i guess, but it’s really pretty! good work Blog_Pogz2! i think fuzzbeed should really consider letting people see this one, and i think they should know that blogger poggers is really really sorry for what happened and apparently she’s ready to just leave the past in the past if they are."
+    },
+    { 
+      commenter: "LLLLL",
+      date: "September 23, 1993 at 7:06 am",
+      text: "he said it could be anything and so Bishobi finally gave me the freaking crysyal so i can see it and its good and the drawingsare all really cool and the best part was the one about Obie but if i had one thing i did not like it was that some of the words were really long"
+    },
   ];
   const [comments, setComments] = useState(defaultComments);
   const textRef = useRef();

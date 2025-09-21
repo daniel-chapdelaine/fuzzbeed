@@ -6,6 +6,7 @@ function App() {
   return (
     <div className='container'>
       <h1>{title}</h1>
+      <em>September 23, 1993</em>
       <h2>The Actual Article Here</h2>
       <Related />
       <Comments articleTitle={title} />
