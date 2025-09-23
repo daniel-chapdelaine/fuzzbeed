@@ -5,10 +5,10 @@ function Header({ title }) {
       <h1>{title}</h1>
       <div className='subtitle'>Come for the giggles, stay for the Diggles</div>
       <div>
-        <em>September 23, 1993</em> 
+        <div className='info'>September 23, 1993</div> 
       </div>
       <div>
-        <em>contributor - Blog_Poggz2</em>
+        <div className='info'>contributor - Blog_Poggz2</div>
       </div>
       <div>[ARTICLE PEDNING REVIEW]</div>
     </div>

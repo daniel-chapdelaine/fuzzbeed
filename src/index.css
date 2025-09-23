@@ -32,12 +32,6 @@ a {
   text-decoration: underline;
 }
 
-em {
-  text-transform: uppercase;
-  font-size: 10px;
-  font-weight: 600;
-}
-
 p {
   font-family: 'Source Sans Pro', sans-serif;;
   font-size: 17px;
@@ -82,4 +76,12 @@ dialog {
 dialog::backdrop {
   background-color: black;
   opacity: .5;
+}
+
+
+.info {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+  font-style: italic;
 }

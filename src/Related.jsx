@@ -20,7 +20,7 @@ function ArticleLink({ imgSrc, href, title, date }) {
 function Related() {
   return (
     <div className='related-container'>
-      <em>Related</em>
+      <div className='info'>Related</div>
       <div className='articles-container'>
         <ArticleLink
           imgSrc={'/fuzzbeed/gnome.jpg'}

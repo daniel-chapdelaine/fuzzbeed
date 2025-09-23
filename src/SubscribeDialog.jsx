@@ -23,7 +23,7 @@ export function SubscribeDialog({ isOpen, onClose }) {
         <div className='subscribe-message'>Discover the receipes Poggertons are making on repeat!</div>
         <input className='field' name="email" placeholder='Email Address' />
         <button className='button' onClick={onClose}>Send me the recipes!</button>
-        <em>I'd like to recieve notifications from Fuzzbeed</em>
+        <div className='info'>I'd like to recieve notifications from Fuzzbeed</div>
       </div>
       <button className='subscribe-close' onClick={onClose}>✕</button>
     </dialog>
