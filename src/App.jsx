@@ -7,6 +7,8 @@ import Related from './Related'
 import { SubscribeDialog } from './SubscribeDialog';
 import Fuzzbeed from './Fuzzbeed';
 import useSubscribeDialogLauncher from './useSubscribeDialogLauncher';
+import Divider from './Divider';
+import About from './About';
 function App() {
   const title = "12 Iconic GourdPoggers Moments That Really Obie our Diggles";
   const [ subcribeOpen, setSubscribeOpen ] = useState(false);
@@ -29,9 +31,12 @@ function App() {
       <div className='container'>
         <Header title={title}/>
         <Article />
+        <Divider />
         <Related />
+        <Divider />
         <Comments articleTitle={title} />
-        {/* about the author */}
+        <Divider />
+        <About />
       </div>
       <SubscribeDialog isOpen={subcribeOpen} onClose={() => setSubscribeOpen(false)}/>
     </>

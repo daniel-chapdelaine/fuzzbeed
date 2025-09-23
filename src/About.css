@@ -1,0 +1,13 @@
+.about-container {
+  display: flex;
+  gap: 24px;
+}
+
+.profile-pic {
+  width: 132px;
+  height: 132px;
+}
+
+.signature {
+text-align: end;
+}
