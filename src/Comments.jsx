@@ -41,6 +41,11 @@ function Comments({ articleTitle }) {
       date: "September 23, 1993 at 7:06 am",
       text: "he said it could be anything and so Bishobi finally gave me the freaking crysyal so i can see it and its good and the drawingsare all really cool and the best part was the one about Obie but if i had one thing i did not like it was that some of the words were really long"
     },
+    {
+      commenter: "BITTERBABE",
+      date: "September 23, 1993 at 9:46 pm",
+      text: "What a lovely article to honor our town miner! And beautiful portraits as always from Beelo… but #9? Really? Of all the moments to capture from the first meeting, that one does seem intentionally unflattering. Regardless, thank you Blog_Pogz2 for another commendable article."
+    },
   ];
   const [comments, setComments] = useState(defaultComments);
   const textRef = useRef();
