@@ -1,3 +1,12 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Important for consistent box model */
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100vw;
+}
+
 body {
   font-family: paralucent, sans-serif;
   margin: 0;
@@ -9,6 +18,10 @@ h1 {
   line-height: 1;
   letter-spacing: 1px;
   font-weight: 800;
+
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
 }
 
 h2 {
@@ -68,6 +81,7 @@ dialog {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   overflow: visible;
   border: none;
+
 }
 
 dialog::backdrop {

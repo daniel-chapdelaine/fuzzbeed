@@ -15,6 +15,10 @@
   > :not(.divider) {
     max-width: 750px;
     margin-inline-start: 12em;
+
+    @media screen and (max-width: 768px) {
+      margin-inline-start: 1.2rem;
+    }
   }
 
 }

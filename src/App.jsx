@@ -35,9 +35,9 @@ function App() {
         <Related />
         <Divider />
         <Comments articleTitle={title} />
+        <Divider />
       </div>
       <div className='footer'>
-        <Divider />
         <About />
       </div>
       <SubscribeDialog isOpen={subcribeOpen} onClose={() => setSubscribeOpen(false)}/>
