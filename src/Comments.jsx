@@ -34,17 +34,17 @@ function Comments({ articleTitle }) {
     { 
       commenter: "littledipper",
       date: "September 23, 1993 at 11:01 am",
-      text: "wow!! dad had said that a new poggers had told him to check out the latest article, and - well he didn’t really know what that meant, but, wow!! i didn’t really know that you could do all this with crystals, i guess, but it’s really pretty! good work Blog_Pogz2! i think fuzzbeed should really consider letting people see this one, and i think they should know that blogger poggers is really really sorry for what happened and apparently she’s ready to just leave the past in the past if they are."
+      text: "wow!! dad had said that a new poggers had told him to check out the latest article, and - well he didn’t really know what that meant, but, wow!! i didn’t really know that you could do all this with crystals, i guess, but it’s really pretty! good work Blog_Poggz2! i think fuzzbeed should really consider letting people see this one, and i think they should know that blogger poggers is really really sorry for what happened and apparently she’s ready to just leave the past in the past if they are."
     },
     { 
       commenter: "LLLLL",
-      date: "September 23, 1993 at 7:06 am",
-      text: "he said it could be anything and so Bishobi finally gave me the freaking crysyal so i can see it and its good and the drawingsare all really cool and the best part was the one about Obie but if i had one thing i did not like it was that some of the words were really long"
+      date: "September 23, 1993 at 12:34 pm",
+      text: "mr. Zofia said if we wanted to wecould read some local writing and if we wanted to we could talk about it in class and if we didhe said that we did not have to read in class the next day but he said it could be anything and so Bishobi finally gave me the freaking crysyal so i can see it and its good and the drawingsare all really cool and the best part was the one about Obie but if i had one thing i did not like it was that some of the words were really long"
     },
     {
       commenter: "BITTERBABE",
       date: "September 23, 1993 at 9:46 pm",
-      text: "What a lovely article to honor our town miner! And beautiful portraits as always from Beelo… but #9? Really? Of all the moments to capture from the first meeting, that one does seem intentionally unflattering. Regardless, thank you Blog_Pogz2 for another commendable article."
+      text: "What a lovely article to honor our town miner! And beautiful portraits as always from Beelo… but #9? Really? Of all the moments to capture from the first meeting, that one does seem intentionally unflattering. Regardless, thank you Blog_Poggz2 for another commendable article."
     },
   ];
   const [comments, setComments] = useState(defaultComments);
