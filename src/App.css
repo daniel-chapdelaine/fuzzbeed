@@ -10,6 +10,18 @@
   gap: 30px;
   margin-bottom: 48px;
   margin-top: 2em;
-  margin-inline-start: 12em;
-  width: 750px;
+  margin-right: 24px;
+
+  > :not(.divider) {
+    max-width: 750px;
+    margin-inline-start: 12em;
+  }
+
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 48px;
 }

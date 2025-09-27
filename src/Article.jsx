@@ -5,7 +5,7 @@ function Section({ index, title, text, imgUrl }) {
     <div className='section-container'>
       <h2>#{index}. {title}</h2>
       <p dangerouslySetInnerHTML={{ __html: text }}></p>
-      <img className='section-img' src={imgUrl} />
+        <img className='section-img' src={imgUrl} />
     </div>
   )
 }

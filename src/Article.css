@@ -3,11 +3,14 @@
   flex-direction: column;
   gap: 24px;
 }
+
 .section-container {
   background-color: #ebf2ec;
   padding: 24px;
+  margin-right: 24px;
 }
 
 .section-img {
-  width: 590px;
+  max-width: 100%; /* Ensures the image will not exceed the width of its container */
+  height: auto; 
 }

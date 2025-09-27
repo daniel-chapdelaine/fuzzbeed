@@ -1,13 +1,11 @@
+import './Divider.css';
+
 function Divider() {
 
   return (
-    <div 
-      style={{
-        width: '100%',
-        height: '2px',
-        backgroundColor: "gray"
-      }}
-    />
+    <div className='divider'>
+      <div className="divider-inner"/>
+    </div>
   );
 }
 

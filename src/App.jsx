@@ -35,6 +35,8 @@ function App() {
         <Related />
         <Divider />
         <Comments articleTitle={title} />
+      </div>
+      <div className='footer'>
         <Divider />
         <About />
       </div>

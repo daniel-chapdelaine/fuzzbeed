@@ -1,6 +1,11 @@
 .about-container {
   display: flex;
   gap: 24px;
+  max-width: 1200px;
+}
+
+.about-text {
+  font-size: 13px;
 }
 
 .profile-pic {
@@ -9,5 +14,6 @@
 }
 
 .signature {
-text-align: end;
+  text-align: end;
+  margin-right: 48px;
 }
